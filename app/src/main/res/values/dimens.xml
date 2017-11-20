@@ -1,0 +1,60 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_padding">5dp</dimen>
+
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="spinner_topic_text_size">16sp</dimen>
+
+    <dimen name="activity_main_title_width">300dp</dimen>
+    <dimen name="activity_main_title_height">150dp</dimen>
+    <dimen name="activity_main_space_title_function">50dp</dimen>
+    <dimen name="activity_main_button_width">220dp</dimen>
+    <dimen name="activity_main_button_height">48dp</dimen>
+    <dimen name="activity_main_icon_button_size">50dp</dimen>
+    <dimen name="activity_main_icon_button_space">5dp</dimen>
+    <dimen name="activity_main_icon_group_pađing_right">10dp</dimen>
+    <dimen name="activity_main_icon_group_pađing_bottom">10dp</dimen>
+
+    <dimen name="activity_practice_layout_topic_width">280dp</dimen>
+    <dimen name="activity_practice_triangle_size">30dp</dimen>
+    <dimen name="activity_practice_current_total_text_size">30dp</dimen>
+    <dimen name="activity_practice_sound_size">60dp</dimen>
+    <dimen name="activity_practice_line_height">2dp</dimen>
+    <dimen name="activity_practice_checkbox_text_size">16sp</dimen>
+    <dimen name="activity_practice_topic_margin_bottom">20dp</dimen>
+
+    <dimen name="activiy_memory_test_space_top">30dp</dimen>
+    <dimen name="activiy_memory_button_answer_margin_left">20dp</dimen>
+    <dimen name="activiy_memory_button_answer_space_bottom">20dp</dimen>
+    <dimen name="activiy_memory_button_answer_padding">10dp</dimen>
+    <dimen name="activiy_memory_button_answer_height">40dp</dimen>
+    <dimen name="activiy_memory_button_answer_width">140dp</dimen>
+    <dimen name="activiy_memory_button_answer_space">5dp</dimen>
+    <dimen name="activiy_memory_text_answer_size">16sp</dimen>
+    <dimen name="activiy_memory_next_width">100dp</dimen>
+    <dimen name="activiy_memory_next_height">50dp</dimen>
+    <dimen name="activiy_memory_text_question_size">@dimen/item_vocabulary_practice_word_size</dimen>
+
+    <dimen name="activiy_listening_sound_size">80dp</dimen>
+    <dimen name="activiy_writing_answer_width">200dp</dimen>
+    <dimen name="activiy_writing_question_height">100dp</dimen>
+
+    <dimen name="item_vocabulary_padding">10dp</dimen>
+    <dimen name="item_vocabulary_word_size">26sp</dimen>
+    <dimen name="item_vocabulary_texts_size">15sp</dimen>
+    <dimen name="item_vocabulary_volume_size">50dp</dimen>
+    <dimen name="item_vocabulary_volume_magin_right">20dp</dimen>
+
+    <dimen name="item_vocabulary_practice_word_size">50sp</dimen>
+    <dimen name="item_vocabulary_practice_pron_size">20sp</dimen>
+    <dimen name="item_vocabulary_practice_mean_size">@dimen/item_vocabulary_practice_pron_size</dimen>
+    <dimen name="item_vocabulary_practice_space_word_other">30dp</dimen>
+
+    <dimen name="dialog_title_padding">24dp</dimen>
+    <dimen name="dialog_title_checkbox_title_size">24dp</dimen>
+
+    <dimen name="dialog_congratulation_padding">10dp</dimen>
+    <dimen name="dialog_congratulation_space_top">40dp</dimen>
+    <dimen name="dialog_congratulation_space_text_button">50dp</dimen>
+    <dimen name="dialog_congratulation_title_size">30sp</dimen>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="dropbox_content_url">https://www.dropbox.com/s/t4l2vq2fczflbrf/content.json?dl=1</string>
+
+    <string name="app_name">English Vocabolary</string>
+    <string name="topics">Topics</string>
+    <string name="vocabularies">Vocavularies</string>
+    <string name="learn">Learn</string>
+    <string name="practice">Practice</string>
+    <string name="test">Test</string>
+    <string name="memory">Memory</string>
+    <string name="listening">Listening</string>
+    <string name="writing">Writing</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+    <string name="show_word">Show Word</string>
+    <string name="show_pronunciation">Show Pronunciation</string>
+    <string name="show_mean">Show Mean</string>
+    <string name="next">Next</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="correct">Correct</string>
+    <string name="perfect">Perfect</string>
+    <string name="not_enough_vocabulary">Not enough Vocabulary to test. Please choose more!</string>
+    <string name="no_topic_chosen">No topic chosen. Please choose one</string>
+    <string name="warning_choose_answer">Please choose your answer</string>
+    <string name="congratulation">Congratulations!</string>
+    <string name="test_again">Test Again</string>
+    <string name="click_listen">Click to listen</string>
+    <string name="next_question">Next question</string>
+    <string name="internet_no_internet">Internet isn\'t available. Please check again</string>
+    <string name="rating">Rating</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="not_now">Not Now</string>
+    <string name="rating_info">Dear User,\nFirstly, Thanks for using our app.\nIf the app is helpful for you. Please let rate it.\nThanks!\nDeveloper</string>
+    <string name="language">Language</string>
+    <string name="english">Engish</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="speech_rate">Speech rate</string>
+    <string name="download">Download...</string>
+    <string name="download_error">Download error, please check internet connection or proxy</string>
+    <string name="exit">Exit</string>
+</resources>

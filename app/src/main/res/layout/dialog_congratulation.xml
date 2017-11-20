@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dialog_congratulation_padding">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_congratulation_space_top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/dialog_congratulation_title_size"
+        android:text="@string/congratulation"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_congratulation_space_text_button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btnTest1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="@string/writing"/>
+        <Button
+            android:id="@+id/btnTest2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="@string/listening"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTestAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/test_again"/>
+
+</LinearLayout>

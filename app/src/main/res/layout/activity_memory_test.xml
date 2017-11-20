@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_padding">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activiy_memory_test_space_top" />
+
+    <TextView
+        android:id="@+id/tvCurrentOverTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_practice_current_total_text_size"
+        android:layout_gravity="center_horizontal"
+        android:text="10/30"/>
+    
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/activiy_memory_text_question_size"
+        android:text="AVBC"/>
+
+    <RadioGroup
+        android:id="@+id/rbAnswerGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activiy_memory_button_answer_margin_left"
+        android:layout_marginRight="@dimen/activiy_memory_button_answer_margin_left">
+        <RadioButton
+            android:id="@+id/rbA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activiy_memory_text_answer_size"
+            android:text="ABC"/>
+        <RadioButton
+            android:id="@+id/rbB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activiy_memory_text_answer_size"
+            android:text="ABC"/>
+        <RadioButton
+            android:id="@+id/rbC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activiy_memory_text_answer_size"
+            android:text="ABC"/>
+        <RadioButton
+            android:id="@+id/rbD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activiy_memory_text_answer_size"
+            android:text="ABC"/>
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activiy_memory_button_answer_space_bottom" />
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="@dimen/activiy_memory_next_width"
+        android:layout_height="@dimen/activiy_memory_next_height"
+        android:layout_gravity="right"
+        android:textSize="@dimen/button_text_size"
+        android:text="@string/next"
+        android:layout_marginRight="@dimen/activity_padding"/>
+
+</LinearLayout>

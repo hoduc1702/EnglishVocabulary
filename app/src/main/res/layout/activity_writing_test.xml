@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activiy_memory_test_space_top" />
+
+        <TextView
+            android:id="@+id/tvCurrentOverTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_practice_current_total_text_size"
+            android:layout_gravity="center_horizontal"
+            android:text="10/30"/>
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activiy_writing_question_height"
+            android:gravity="center"
+            android:lines="1"
+            android:textSize="@dimen/activiy_memory_text_question_size"
+            android:text="AVBC"/>
+
+        <EditText
+            android:id="@+id/etInputAnswer"
+            android:layout_width="@dimen/activiy_writing_answer_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/activiy_memory_text_answer_size"/>
+
+       <Button
+            android:id="@+id/btnNext"
+            android:layout_width="@dimen/activiy_memory_next_width"
+            android:layout_height="@dimen/activiy_memory_next_height"
+            android:layout_gravity="right"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/next"/>
+    </LinearLayout>
+</ScrollView>
